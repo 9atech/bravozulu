@@ -1,0 +1,14 @@
+baseURL = "https://bravozulu.ar/"
+languageCode = "es-ar"
+title = "Bravo Zulu"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  author = "Santiago Franchi"
+  description = "Análisis estratégico, defensa y soberanía en la era digital"
