@@ -42,6 +42,7 @@ publishDir = "docs"
   name = "rss"
   url  = "/index.xml"
 
+# Menú principal (Navbar)
 [[menu.main]]
   identifier = "noticias"
   name = "Noticias"
