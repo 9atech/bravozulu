@@ -2,33 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://bravozulu.ar/</loc>
     <lastmod>2025-10-10T02:08:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://bravozulu.ar/posts/</loc>
     <lastmod>2025-10-10T02:08:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/primera-noticia/</loc>
-    <lastmod>2025-10-10T02:08:20-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/bienvenida/</loc>
+    <loc>https://bravozulu.ar/posts/bienvenida/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ciberdefensa/</loc>
+    <loc>https://bravozulu.ar/tags/ciberdefensa/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/defensa/</loc>
+    <loc>https://bravozulu.ar/tags/defensa/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/geopolitica/</loc>
+    <loc>https://bravozulu.ar/tags/geopolitica/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://bravozulu.ar/tags/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tecnologia/</loc>
+    <loc>https://bravozulu.ar/tags/tecnologia/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://bravozulu.ar/categories/</loc>
   </url>
 </urlset>
