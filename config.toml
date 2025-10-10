@@ -79,5 +79,11 @@ relativeURLs = false
   hideCopyright = false
   text = "Desarrollado por Santiago Franchi"
 
+[deployment]
+[[deployment.targets]]
+name = "github"
+URL = "https://bravozulu.ar/"
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]          #  Necesario para PaperMod/Hugo Pipes
+home = ["HTML", "RSS", "JSON"]
+publishDir = "docs"
