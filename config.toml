@@ -15,6 +15,9 @@ enableRobotsTXT = true
   author = "Santiago Franchi"
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
+  ShowCover = true
+  customCSS = ["css/extended/hero.css"]
+
 
 [params.homeInfoParams]
   Title = "Bravo Zulu"
@@ -31,7 +34,6 @@ enableRobotsTXT = true
 [[params.socialIcons]]
   name = "rss"
   url  = "/index.xml"
-
 
 # Menú superior (Navbar)
 [[menu.main]]
@@ -63,3 +65,16 @@ enableRobotsTXT = true
   name = "Geopolítica"
   url = "/tags/geopolitica/"
   weight = 50
+
+[params.assets]
+  favicon = "favicon.ico"                 # Ícono del sitio en pestañas
+  ogImage = "/images/og-banner.jpg"       # Imagen usada al compartir enlaces
+
+[params.meta]
+  description = "Bravo Zulu – análisis estratégico, defensa y soberanía argentina."
+  keywords = ["Santiago Franchi", "defensa", "ciberdefensa", "geopolítica", "tecnología", "soberanía nacional"]
+
+[params.footer]
+  hideCopyright = false
+  text = "Desarrollado por Santiago Franchi"
+
