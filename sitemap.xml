@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://bravozulu.ar/</loc><lastmod>2025-10-10T02:08:20-03:00</lastmod></url><url><loc>https://bravozulu.ar/posts/</loc><lastmod>2025-10-10T02:08:20-03:00</lastmod></url><url><loc>https://bravozulu.ar/posts/bienvenida/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/tags/ciberdefensa/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/tags/defensa/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/tags/geopolitica/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/tags/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/tags/tecnologia/</loc><lastmod>2025-10-05T00:00:00+00:00</lastmod></url><url><loc>https://bravozulu.ar/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-10T02:08:20-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-10T02:08:20-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/primera-noticia/</loc>
+    <lastmod>2025-10-10T02:08:20-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bienvenida/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ciberdefensa/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/defensa/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/geopolitica/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tecnologia/</loc>
+    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+</urlset>
