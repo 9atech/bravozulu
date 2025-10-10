@@ -18,7 +18,7 @@ relativeURLs = false
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
   ShowCover = true
-  customCSS = ["/css/extended/hero.css"]   #  Ruta absoluta corregida
+  customCSS = ["css/extended/hero.css"]
 
 [params.homeInfoParams]
   Title = "Bravo Zulu"
