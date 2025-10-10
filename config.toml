@@ -16,7 +16,7 @@ enableRobotsTXT = true
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
   ShowCover = true
-  customCSS = ["css/hero.css"]
+  customCSS = ["css/extended/hero.css"]
 
 
 [params.homeInfoParams]

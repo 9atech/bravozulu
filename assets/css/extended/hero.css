@@ -13,7 +13,7 @@ body.home main,
 body.home .main.home,
 body.home .home-info-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url("/images/og-banner.jpg") center/cover no-repeat;
+              url("/images/og-banner.jpg") center/cover no-repeat !important;
   min-height: 420px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,8 @@ body.home .home-info-wrapper {
 
 /* Superposición oscura adicional (seguridad de legibilidad) */
 body.home main::before,
-body.home .main.home::before {
+body.home .main.home::before,
+body.home .home-info-wrapper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -50,7 +51,8 @@ body.home .home-info-wrapper * {
 }
 
 /* === TEXTO DEL HERO === */
-body.home main h1 {
+body.home main h1,
+body.home .home-info-wrapper h1 {
   font-size: 2.8rem;
   font-weight: 700;
   margin-bottom: 0.8rem;
@@ -58,7 +60,8 @@ body.home main h1 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
-body.home main p {
+body.home main p,
+body.home .home-info-wrapper p {
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto;
