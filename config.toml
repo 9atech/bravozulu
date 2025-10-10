@@ -88,3 +88,15 @@ publishDir = "docs"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[[params.socialIcons]]
+  name = "github"
+  url  = "https://github.com/9atech/bravozulu"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/santiago-franchi/"
+
+[[params.socialIcons]]
+  name = "rss"
+  url  = "/index.xml"

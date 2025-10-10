@@ -102,3 +102,33 @@ footer a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
+/* =============================== */
+/*  FIX: Íconos sociales Bravo Zulu */
+/* =============================== */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.social-icons a svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.6;
+  color: #1a4d8f; /* Azul institucional Bravo Zulu */
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.15);
+  color: #2e6ac7;
+}
+
+/* Asegura que los íconos hereden color correcto en modo oscuro */
+[data-theme="dark"] .social-icons a svg {
+  color: #b0c7ff;
+}
