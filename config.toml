@@ -14,3 +14,47 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   author = "Santiago Franchi"
   description = "Análisis estratégico, defensa y soberanía en la era digital"
+  ShowPostsOnHomePage = true
+
+[params.homeInfoParams]
+  Title = "Bravo Zulu"
+  Content = "Análisis estratégico, defensa y soberanía nacional en la era digital.\n\nUna plataforma independiente dedicada al pensamiento crítico sobre tecnología, ciberdefensa, política exterior y seguridad argentina."
+
+[params.socialIcons]
+  - name = "github"
+    url = "https://github.com/9atech/bravozulu"
+  - name = "linkedin"
+    url = "https://www.linkedin.com/in/santiago-franchi/"
+  - name = "rss"
+    url = "/index.xml"
+
+# Menú superior (Navbar)
+[[menu.main]]
+  identifier = "noticias"
+  name = "Noticias"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "defensa"
+  name = "Defensa"
+  url = "/tags/defensa/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tecnologia"
+  name = "Tecnología"
+  url = "/tags/tecnologia/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "ciberdefensa"
+  name = "Ciberdefensa"
+  url = "/tags/ciberdefensa/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "geopolitica"
+  name = "Geopolítica"
+  url = "/tags/geopolitica/"
+  weight = 50
