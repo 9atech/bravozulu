@@ -3,6 +3,8 @@ languageCode = "es-ar"
 title = "Bravo Zulu"
 theme = "PaperMod"
 enableRobotsTXT = true
+canonifyURLs = true
+
 
 [pagination]
   pagerSize = 10
