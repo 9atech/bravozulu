@@ -2,8 +2,10 @@ baseURL = "https://bravozulu.ar/"
 languageCode = "es-ar"
 title = "Bravo Zulu"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
 
 [params]
   defaultTheme = "auto"
