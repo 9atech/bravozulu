@@ -18,7 +18,7 @@ relativeURLs = false
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
   ShowCover = true
-  customCSS = ["/css/extended/hero.css"]   # 👈 Ruta absoluta corregida
+  customCSS = ["/css/extended/hero.css"]   #  Ruta absoluta corregida
 
 [params.homeInfoParams]
   Title = "Bravo Zulu"
@@ -80,4 +80,4 @@ relativeURLs = false
   text = "Desarrollado por Santiago Franchi"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]          # 👈 Necesario para PaperMod/Hugo Pipes
+  home = ["HTML", "RSS", "JSON"]          #  Necesario para PaperMod/Hugo Pipes
