@@ -4,7 +4,7 @@ title = "Bravo Zulu"
 theme = "PaperMod"
 enableRobotsTXT = true
 canonifyURLs = true
-
+relativeURLs = false
 
 [pagination]
   pagerSize = 10
@@ -18,8 +18,7 @@ canonifyURLs = true
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
   ShowCover = true
-  customCSS = ["css/extended/hero.css"]
-
+  customCSS = ["/css/extended/hero.css"]   # 👈 Ruta absoluta corregida
 
 [params.homeInfoParams]
   Title = "Bravo Zulu"
@@ -80,3 +79,5 @@ canonifyURLs = true
   hideCopyright = false
   text = "Desarrollado por Santiago Franchi"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]          # 👈 Necesario para PaperMod/Hugo Pipes
