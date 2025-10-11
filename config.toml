@@ -1,3 +1,11 @@
+# ==========================================================
+#  BRAVO ZULU – CONFIGURACIÓN PRINCIPAL
+#  Autor: Santiago Franchi
+#  Fecha: 2025-10-11
+#  Tema: PaperMod
+#  Descripción: Sitio de análisis estratégico, defensa y soberanía nacional
+# ==========================================================
+
 baseURL = "https://bravozulu.ar/"
 languageCode = "es-ar"
 title = "Bravo Zulu"
@@ -7,29 +15,52 @@ canonifyURLs = true
 relativeURLs = false
 publishDir = "docs"
 
+# ----------------------------------------------------------
+# PAGINACIÓN
+# ----------------------------------------------------------
 [pagination]
   pagerSize = 10
 
+# ----------------------------------------------------------
+# PARÁMETROS GENERALES
+# ----------------------------------------------------------
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
-  author = "Santiago Franchi"
-  description = "Análisis estratégico, defensa y soberanía en la era digital"
   ShowPostsOnHomePage = true
   ShowCover = true
+  author = "Santiago Franchi"
+  description = "Análisis estratégico, defensa y soberanía en la era digital"
   customCSS = ["css/extended/hero.css"]
 
+# ----------------------------------------------------------
+# META / SEO
+# ----------------------------------------------------------
+[params.meta]
+  description = "Bravo Zulu – análisis estratégico, defensa y soberanía argentina."
+  keywords = ["Santiago Franchi", "defensa", "ciberdefensa", "geopolítica", "tecnología", "soberanía nacional"]
+
+# ----------------------------------------------------------
+# ASSETS Y ESTÁTICOS
+# ----------------------------------------------------------
 [params.assets]
   favicon = "favicon.ico"
   ogImage = "/images/og-banner.jpg"
   disableFingerprint = true
 
+# ----------------------------------------------------------
+# INFORMACIÓN PRINCIPAL EN HOME
+# ----------------------------------------------------------
 [params.homeInfoParams]
   Title = "Bravo Zulu"
   Content = "Análisis estratégico, defensa y soberanía nacional en la era digital.\n\nUna plataforma independiente dedicada al pensamiento crítico sobre tecnología, ciberdefensa, política exterior y seguridad argentina."
 
+# ----------------------------------------------------------
+# ÍCONOS SOCIALES
+# (solo una vez, sin duplicaciones)
+# ----------------------------------------------------------
 [[params.socialIcons]]
   name = "github"
   url  = "https://github.com/9atech/bravozulu"
@@ -42,7 +73,10 @@ publishDir = "docs"
   name = "rss"
   url  = "/index.xml"
 
-# Menú principal (Navbar)
+# ----------------------------------------------------------
+# MENÚ PRINCIPAL (NAVBAR)
+# Noticias primero, resto en orden alfabético
+# ----------------------------------------------------------
 [[menu.main]]
   identifier = "noticias"
   name = "Noticias"
@@ -50,53 +84,58 @@ publishDir = "docs"
   weight = 10
 
 [[menu.main]]
-  identifier = "defensa"
-  name = "Defensa"
-  url = "/tags/defensa/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "tecnologia"
-  name = "Tecnología"
-  url = "/tags/tecnologia/"
-  weight = 30
-
-[[menu.main]]
   identifier = "ciberdefensa"
   name = "Ciberdefensa"
   url = "/tags/ciberdefensa/"
-  weight = 40
+  weight = 20
+
+[[menu.main]]
+  identifier = "defensa"
+  name = "Defensa"
+  url = "/tags/defensa/"
+  weight = 30
 
 [[menu.main]]
   identifier = "geopolitica"
   name = "Geopolítica"
   url = "/tags/geopolitica/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "recursos-estrategicos"
+  name = "Recursos Estratégicos"
+  url = "/tags/recursos-estrategicos/"
   weight = 50
 
-[params.meta]
-  description = "Bravo Zulu – análisis estratégico, defensa y soberanía argentina."
-  keywords = ["Santiago Franchi", "defensa", "ciberdefensa", "geopolítica", "tecnología", "soberanía nacional"]
+[[menu.main]]
+  identifier = "soberania-nacional"
+  name = "Soberanía Nacional"
+  url = "/tags/soberania-nacional/"
+  weight = 60
 
+[[menu.main]]
+  identifier = "tecnologia"
+  name = "Tecnología"
+  url = "/tags/tecnologia/"
+  weight = 70
+
+# ----------------------------------------------------------
+# FOOTER / COPYRIGHT
+# ----------------------------------------------------------
 [params.footer]
   hideCopyright = false
-  text = "Desarrollado por Santiago Franchi"
+  text = "Desarrollado en Argentina 🇦🇷 por Santiago Franchi · Proyecto independiente sin afiliación ni financiación externa."
 
+# ----------------------------------------------------------
+# DEPLOYMENT – GITHUB PAGES
+# ----------------------------------------------------------
 [deployment]
   [[deployment.targets]]
   name = "github"
   URL = "https://bravozulu.ar/"
 
+# ----------------------------------------------------------
+# OUTPUTS
+# ----------------------------------------------------------
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[[params.socialIcons]]
-  name = "github"
-  url  = "https://github.com/9atech/bravozulu"
-
-[[params.socialIcons]]
-  name = "linkedin"
-  url  = "https://www.linkedin.com/in/santiago-franchi/"
-
-[[params.socialIcons]]
-  name = "rss"
-  url  = "/index.xml"
