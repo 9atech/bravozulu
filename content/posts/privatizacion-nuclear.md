@@ -6,12 +6,12 @@ description: Análisis sobre la privatización parcial de Nucleoeléctrica Argen
 cover:
   image: "/images/privatizacion-nuclear.jpg"
   alt: "Reactor nuclear argentino"
-  caption: "Fuente: Infobae"
+  caption: "Fuente: propia"
 tags: ["Argentina", "Soberanía", "Energía Nuclear", "Política Energética", "Congreso", "Desarrollo Nacional"]
 categories: ["Política Energética", "Soberanía Nacional"]
 ---
 
-# “Ni la virtud ni los talentos tienen precio, ni pueden compensarse con dinero sin degradarlos.” — **Manuel Belgrano**
+#  **Manuel Belgrano: “Ni la virtud ni los talentos tienen precio, ni pueden compensarse con dinero sin degradarlos”**.
 
 ### El Gobierno nacional avanzó con la privatización parcial de **Nucleoeléctrica Argentina S.A.**, la empresa estatal responsable de los reactores **Atucha I, Atucha II y Embalse**.
 
@@ -84,4 +84,4 @@ En este sentido, no puede olvidarse que el **verdadero propietario de este patri
 
 ---
 
-**#SantiagoFranchi #Argentina #Soberania #Democracia #Libertad #SoberaniaEnergetica #EnergiaNuclear #PoliticaEnergetica #Congreso #Tecnologia #IndustriaNuclear #DesarrolloNacional #InversionPublica #DebateEstrategico #AutonomiaEnergetica #Nacion**
+#SantiagoFranchi #Argentina #Soberania #Democracia #Libertad #SoberaniaEnergetica #EnergiaNuclear #PoliticaEnergetica #Congreso #Tecnologia #IndustriaNuclear #DesarrolloNacional #InversionPublica #DebateEstrategico #AutonomiaEnergetica #Nacion
