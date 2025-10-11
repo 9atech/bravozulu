@@ -1,5 +1,5 @@
 <!-- ==========================================================
-     Bravo Zulu – Footer institucional limpio
+     Bravo Zulu – Footer institucional limpio (versión corregida)
      ========================================================== -->
 
 <footer class="footer">
@@ -14,10 +14,10 @@
     </p>
   </div>
 
-  <!-- Bloque social único (opcional) -->
+  <!-- Bloque social único (corregido con dict) -->
   {{ if site.Params.socialIcons }}
   <div class="social-footer">
-    {{ partial "social_icons.html" site.Params.socialIcons }}
+    {{ partial "social_icons.html" (dict "social" site.Params.socialIcons "align" "center") }}
   </div>
   {{ end }}
 </footer>
