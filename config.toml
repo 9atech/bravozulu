@@ -82,42 +82,43 @@ publishDir = "docs"
   name = "Noticias"
   url = "/posts/"
   weight = 10
-
+  
 [[menu.main]]
   identifier = "ciberdefensa"
   name = "Ciberdefensa"
-  url = "/tags/ciberdefensa/"
+  url = "/categories/ciberdefensa/"
   weight = 20
 
 [[menu.main]]
   identifier = "defensa"
   name = "Defensa"
-  url = "/tags/defensa/"
+  url = "/categories/defensa/"
   weight = 30
 
 [[menu.main]]
   identifier = "geopolitica"
   name = "Geopolítica"
-  url = "/tags/geopolitica/"
+  url = "/categories/geopolitica/"
   weight = 40
 
 [[menu.main]]
   identifier = "recursos-estrategicos"
   name = "Recursos Estratégicos"
-  url = "/tags/recursos-estrategicos/"
+  url = "/categories/recursos-estrategicos/"
   weight = 50
 
 [[menu.main]]
   identifier = "soberania-nacional"
   name = "Soberanía Nacional"
-  url = "/tags/soberania-nacional/"
+  url = "/categories/soberania-nacional/"
   weight = 60
 
 [[menu.main]]
   identifier = "tecnologia"
   name = "Tecnología"
-  url = "/tags/tecnologia/"
+  url = "/categories/tecnologia/"
   weight = 70
+
 
 # ----------------------------------------------------------
 # FOOTER / COPYRIGHT
