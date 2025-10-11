@@ -1,10 +1,12 @@
 ---
-title: "Inicio"
-description: "Análisis estratégico, defensa y soberanía nacional en la era digital"
+title: "Bravo Zulu: Inicio"
+date: 2025-10-05
+draft: false
 cover:
   image: "images/og-banner.jpg"
-  alt: "Bravo Zulu – Defensa, soberanía y estrategia nacional"
+  alt: "Bravo Zulu – Análisis estratégico, defensa y soberanía tecnológica"
   relative: true
+description: "Bienvenida a Bravo Zulu: espacio de pensamiento crítico sobre defensa, soberanía y tecnología argentina."
 ---
 
 Bienvenido a **Bravo Zulu**, un espacio dedicado al análisis estratégico y tecnológico desde una perspectiva argentina.  
