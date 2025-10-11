@@ -1,7 +1,6 @@
 # ==========================================================
 #  BRAVO ZULU – CONFIGURACIÓN PRINCIPAL
 #  Autor: Santiago Franchi
-#  Fecha: 2025-10-11
 #  Tema: PaperMod
 #  Descripción: Sitio de análisis estratégico, defensa y soberanía nacional
 # ==========================================================
@@ -14,6 +13,13 @@ enableRobotsTXT = true
 canonifyURLs = true
 relativeURLs = false
 publishDir = "docs"
+
+# ----------------------------------------------------------
+# TAXONOMÍAS (para evitar conflictos y ambigüedades)
+# ----------------------------------------------------------
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 # ----------------------------------------------------------
 # PAGINACIÓN
@@ -59,7 +65,6 @@ publishDir = "docs"
 
 # ----------------------------------------------------------
 # ÍCONOS SOCIALES
-# (solo una vez, sin duplicaciones)
 # ----------------------------------------------------------
 [[params.socialIcons]]
   name = "github"
@@ -75,14 +80,13 @@ publishDir = "docs"
 
 # ----------------------------------------------------------
 # MENÚ PRINCIPAL (NAVBAR)
-# Noticias primero, resto en orden alfabético
 # ----------------------------------------------------------
 [[menu.main]]
   identifier = "noticias"
   name = "Noticias"
   url = "/posts/"
   weight = 10
-  
+
 [[menu.main]]
   identifier = "ciberdefensa"
   name = "Ciberdefensa"
@@ -118,7 +122,6 @@ publishDir = "docs"
   name = "Tecnología"
   url = "/categories/tecnologia/"
   weight = 70
-
 
 # ----------------------------------------------------------
 # FOOTER / COPYRIGHT

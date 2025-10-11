@@ -2,7 +2,7 @@
 title: '"No tiene la culpa el chancho, sino quien le da de comer": responsabilidad institucional en la defensa de los recursos estratégicos nacionales'
 date: 2025-10-01
 author: Santiago Franchi
-categories: ["Soberanía Nacional"]
+categories: ["soberania-nacional"]
 description: Análisis sobre la privatización parcial de Nucleoeléctrica Argentina S.A. y sus implicancias estratégicas para la soberanía energética nacional.
 cover:
   image: "/images/privatizacion-nuclear.jpg"
