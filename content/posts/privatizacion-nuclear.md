@@ -13,7 +13,7 @@ categories: ["Política Energética", "Soberanía Nacional"]
 
 # “Ni la virtud ni los talentos tienen precio, ni pueden compensarse con dinero sin degradarlos.” — **Manuel Belgrano**
 
-## El Gobierno nacional avanzó con la privatización parcial de **Nucleoeléctrica Argentina S.A.**, la empresa estatal responsable de los reactores **Atucha I, Atucha II y Embalse**.
+### El Gobierno nacional avanzó con la privatización parcial de **Nucleoeléctrica Argentina S.A.**, la empresa estatal responsable de los reactores **Atucha I, Atucha II y Embalse**.
 
 [Nota completa en Infobae](https://www.infobae.com/economia/2025/09/30/el-gobierno-avanzo-con-la-privatizacion-parcial-de-la-empresa-que-opera-los-reactores-nucleares/)
 
@@ -53,12 +53,8 @@ El Ejecutivo se apoyó en la Ley de Bases, pero más allá de lo legal, persiste
 
 
 
-
-<figure style="text-align:center;">
-  <img src="/images/atucha2.jpg" alt="Central Nuclear Atucha II" width="80%">
-  <figcaption><em>Central Nuclear Atucha II – fuente: CNEA</em></figcaption>
-</figure>
-
+![Central Nuclear Atucha II](/images/atucha2.jpg)
+*Central Nuclear Atucha II – fuente: CNEA*
 
 
 
