@@ -1,41 +1,43 @@
 <!-- ==========================================================
-     Bravo Zulu – Footer institucional limpio (versión corregida)
+     Bravo Zulu – Footer institucional final (PaperMod compatible)
      ========================================================== -->
 
 <footer class="footer">
   <div class="footer-meta">
     <p>
-      © {{ now.Format "2006" }} Bravo Zulu — 
+      © {{ now.Format "2006" }} <strong>Bravo Zulu</strong> — 
       Análisis estratégico, defensa y soberanía nacional en la era digital.
     </p>
     <p>
-      Desarrollado en Argentina 🇦🇷 por Santiago Franchi · 
+      Desarrollado en Argentina 🇦🇷 por <strong>Santiago Franchi</strong> · 
       Proyecto independiente sin afiliación ni financiación externa.
     </p>
   </div>
 
-  <!-- Bloque social único (corregido con dict) -->
+  <!-- Bloque social único y seguro -->
   {{ if site.Params.socialIcons }}
   <div class="social-footer">
-    {{ partial "social_icons.html" (dict "social" site.Params.socialIcons "align" "center") }}
+    {{ partial "social_icons.html" (dict "align" "center" "social" site.Params.socialIcons) }}
   </div>
   {{ end }}
 </footer>
 
 <style>
+  /* ===== Footer institucional Bravo Zulu ===== */
   .footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 3rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 1rem;
     border-top: 1px solid var(--border);
     color: var(--secondary);
+    background: var(--theme-bg, #fafafa);
   }
 
   .footer a {
     color: var(--secondary);
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
   }
 
   .footer a:hover,
@@ -48,8 +50,10 @@
   .social-footer {
     display: flex;
     justify-content: center;
-    gap: 1.2rem;
-    margin-top: 1rem;
+    gap: 1.4rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    border-bottom: none !important;
   }
 
   .social-footer a svg {
@@ -67,6 +71,11 @@
     color: #2e6ac7;
   }
 
+  [data-theme="dark"] .footer {
+    background: #0f1117;
+    color: #b8b8b8;
+  }
+
   [data-theme="dark"] .social-footer a svg {
     color: #b0c7ff;
   }
@@ -76,5 +85,9 @@
     font-size: 0.9rem;
     opacity: 0.85;
     line-height: 1.4;
+  }
+
+  .footer hr {
+    display: none !important;
   }
 </style>
