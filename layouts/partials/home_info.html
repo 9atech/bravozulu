@@ -1,13 +1,17 @@
+<!-- ==========================================================
+     Bravo Zulu – Home Info limpio (sin íconos duplicados)
+     ========================================================== -->
+
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-        {{ .Content | markdownify }}
-    </div>
-    <footer class="entry-footer">
-        {{/* Íconos sociales removidos — ahora se muestran solo en el footer institucional */}}
-    </footer>
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+
+  <div class="entry-content">
+    {{ .Content | markdownify }}
+  </div>
+
+  <!-- Íconos sociales eliminados: ahora solo se muestran en el footer -->
 </article>
 {{- end -}}
