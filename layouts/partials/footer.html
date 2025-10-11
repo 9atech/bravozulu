@@ -1,40 +1,80 @@
-{{- if not (.Param "hideFooter") }}
+<!-- ==========================================================
+     Bravo Zulu – Footer institucional limpio
+     ========================================================== -->
+
 <footer class="footer">
+  <div class="footer-meta">
+    <p>
+      © {{ now.Format "2006" }} Bravo Zulu — 
+      Análisis estratégico, defensa y soberanía nacional en la era digital.
+    </p>
+    <p>
+      Desarrollado en Argentina 🇦🇷 · 
+      Proyecto independiente sin afiliación ni financiación externa.
+    </p>
+  </div>
 
-    {{/* --- Bloque superior: íconos sociales --- */}}
-    {{- if site.Params.socialIcons }}
-    <div class="social-footer">
-        {{- range site.Params.socialIcons }}
-        <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
-            title="{{ (.title | default .name) | title }}">
-            {{ partial "svg.html" . }}
-        </a>
-        {{- end }}
-    </div>
-    {{- end }}
-
-    {{/* --- Bloque inferior: derechos y créditos --- */}}
-    <div class="footer-meta">
-        {{- if not site.Params.footer.hideCopyright }}
-            {{- if site.Copyright }}
-                <span>{{ site.Copyright | markdownify }}</span>
-            {{- else }}
-                <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-            {{- end }}
-            {{- print " · " }}
-        {{- end }}
-
-        {{- with site.Params.footer.text }}
-            {{ . | markdownify }}
-            {{- print " · " }}
-        {{- end }}
-
-        <span>
-            Powered by
-            <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-            <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-        </span>
-    </div>
-
+  <!-- Bloque social único (opcional) -->
+  {{ if site.Params.socialIcons }}
+  <div class="social-footer">
+    {{ partial "social_icons.html" site.Params.socialIcons }}
+  </div>
+  {{ end }}
 </footer>
-{{- end }}
+
+<style>
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--border);
+    color: var(--secondary);
+  }
+
+  .footer a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer a:hover,
+  .footer a:focus {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+
+  /* Bloque social */
+  .social-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .social-footer a svg {
+    width: 22px;
+    height: 22px;
+    opacity: 0.85;
+    color: #1a4d8f;
+    transition: opacity 0.2s ease, transform 0.2s ease, color 0.3s ease;
+  }
+
+  .social-footer a:hover svg,
+  .social-footer a:focus svg {
+    opacity: 1;
+    transform: scale(1.15);
+    color: #2e6ac7;
+  }
+
+  [data-theme="dark"] .social-footer a svg {
+    color: #b0c7ff;
+  }
+
+  .footer-meta {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    line-height: 1.4;
+  }
+</style>
