@@ -7,7 +7,7 @@ cover:
   image: "/images/privatizacion-nuclear.jpg"
   alt: "Reactor nuclear argentino"
   caption: "Fuente: propia"
-tags: ["Argentina", "Soberanía", "Energía Nuclear", "Política Energética", "Congreso", "Desarrollo Nacional"]
+tags: ["Santiago Franchi", "Argentina", "Soberanía", "Energía Nuclear", "Política Energética", "Congreso", "Desarrollo Nacional"]
 categories: ["Política Energética", "Soberanía Nacional"]
 ---
 
