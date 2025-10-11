@@ -88,37 +88,37 @@ publishDir = "docs"
   weight = 10
 
 [[menu.main]]
-  identifier = "ciberdefensa"
+  identifier = "cat-ciberdefensa"
   name = "Ciberdefensa"
   url = "/categories/ciberdefensa/"
   weight = 20
 
 [[menu.main]]
-  identifier = "defensa"
+  identifier = "cat-defensa"
   name = "Defensa"
   url = "/categories/defensa/"
   weight = 30
 
 [[menu.main]]
-  identifier = "geopolitica"
+  identifier = "cat-geopolitica"
   name = "Geopolítica"
   url = "/categories/geopolitica/"
   weight = 40
 
 [[menu.main]]
-  identifier = "recursos-estrategicos"
+  identifier = "cat-recursos-estrategicos"
   name = "Recursos Estratégicos"
   url = "/categories/recursos-estrategicos/"
   weight = 50
 
 [[menu.main]]
-  identifier = "soberania-nacional"
+  identifier = "cat-soberania-nacional"
   name = "Soberanía Nacional"
   url = "/categories/soberania-nacional/"
   weight = 60
 
 [[menu.main]]
-  identifier = "tecnologia"
+  identifier = "cat-tecnologia"
   name = "Tecnología"
   url = "/categories/tecnologia/"
   weight = 70
