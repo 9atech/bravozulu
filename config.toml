@@ -15,7 +15,7 @@ relativeURLs = false
 publishDir = "docs"
 
 # ----------------------------------------------------------
-# TAXONOMÍAS (para evitar conflictos y ambigüedades)
+# TAXONOMÍAS
 # ----------------------------------------------------------
 [taxonomies]
   category = "categories"
@@ -40,6 +40,9 @@ publishDir = "docs"
   author = "Santiago Franchi"
   description = "Análisis estratégico, defensa y soberanía en la era digital"
   customCSS = ["css/extended/hero.css"]
+
+# 👉 NUEVO BLOQUE CLAVE: indica que la portada debe listar posts y noticias
+mainSections = ["posts", "noticias"]
 
 # ----------------------------------------------------------
 # META / SEO
@@ -79,7 +82,7 @@ publishDir = "docs"
   url  = "/index.xml"
 
 # ----------------------------------------------------------
-# MENÚ PRINCIPAL (NAVBAR)
+# MENÚ PRINCIPAL
 # ----------------------------------------------------------
 [[menu.main]]
   identifier = "noticias"
@@ -124,7 +127,7 @@ publishDir = "docs"
   weight = 70
 
 # ----------------------------------------------------------
-# FOOTER / COPYRIGHT
+# FOOTER
 # ----------------------------------------------------------
 [params.footer]
   hideCopyright = false
