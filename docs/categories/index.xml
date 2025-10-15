@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Bravo Zulu</title><link>https://bravozulu.ar/categories/</link><description>Recent content in Categories on Bravo Zulu</description><generator>Hugo -- 0.151.0</generator><language>es-ar</language><lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bravozulu.ar/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Defensa</title><link>https://bravozulu.ar/categories/defensa/</link><pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate><guid>https://bravozulu.ar/categories/defensa/</guid><description/></item><item><title>Soberanía Nacional</title><link>https://bravozulu.ar/categories/soberan%C3%ADa-nacional/</link><pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate><guid>https://bravozulu.ar/categories/soberan%C3%ADa-nacional/</guid><description/></item><item><title>Política Energética</title><link>https://bravozulu.ar/categories/pol%C3%ADtica-energ%C3%A9tica/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://bravozulu.ar/categories/pol%C3%ADtica-energ%C3%A9tica/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Bravo Zulu</title>
+    <link>https://bravozulu.ar/categories/</link>
+    <description>Recent content in Categories on Bravo Zulu</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bravozulu.ar/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geopolitica</title>
+      <link>https://bravozulu.ar/categories/geopolitica/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/geopolitica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursos-Estrategicos</title>
+      <link>https://bravozulu.ar/categories/recursos-estrategicos/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/recursos-estrategicos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soberania-Nacional</title>
+      <link>https://bravozulu.ar/categories/soberania-nacional/</link>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/soberania-nacional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Defensa</title>
+      <link>https://bravozulu.ar/categories/defensa/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/defensa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soberanía Nacional</title>
+      <link>https://bravozulu.ar/categories/soberan%C3%ADa-nacional/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/soberan%C3%ADa-nacional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Política Energética</title>
+      <link>https://bravozulu.ar/categories/pol%C3%ADtica-energ%C3%A9tica/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://bravozulu.ar/categories/pol%C3%ADtica-energ%C3%A9tica/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
